@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(135deg, #ffe6e6, #f9c6c9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #d72660;
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-shadow: 0 2px 6px #f9c6c9aa;
+}
+
+#mensagem {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 2em;
+    margin: 30px auto 20px auto;
+    color: #c2185b;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 24px #f8bbd044;
+    max-width: 700px;
+    transition: background 0.4s;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    font-style: italic;
+}
+
+button {
+    background: linear-gradient(90deg, #f06292, #ba68c8);
+    color: #fff;
+    border: none;
+    padding: 16px 36px;
+    border-radius: 30px;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 20px #f8bbd044;
+    margin-bottom: 20px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button :hover {
+    background: linear-gradient(90deg, #ba68c8, #f06292);
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 600px;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px #00000044;
+    margin-top: 30px;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 1.3s;
+}
+
+span.flor {
+    position: fixed;
+    user-select: none;
+    pointer-events: none;
+    will-change: transform, opacity;
+}
